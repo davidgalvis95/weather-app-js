@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+}
+
+/*=====================================================================================================================*/
+/*NAV BAR*/
+/*=====================================================================================================================*/
+.general_search{
+  display: flex;
+  flex-direction: column;
+}
+
+.topnav {
+  font-family: Arial;
+  overflow: hidden;
+  background-color: #36384F;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FFA500;
+  color: white;
+}
+/*=====================================================================================================================*/
+/*SEARCH PAGE*/
+/*=====================================================================================================================*/
+.SearchPage {
+  font-family: Arial;
+  margin:auto;
+  max-width:600px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.outer {
+  background-image: url("../images/search_background.jpg");
+  background-size: 100% 100%;
+  display: table;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  height: 95%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 700px;
+  /*whatever width you want*/
+}
+
+.example input {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 90%;
+  background: #f1f1f1;
+}
+
+.example button {
+  box-sizing: border-box;
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: #36384F;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.example button:hover {
+  background: #626D75;
+}
+
+.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
